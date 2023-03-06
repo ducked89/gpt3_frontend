@@ -2,6 +2,11 @@
   "name": "gpt3_frontend",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,5 +21,8 @@
   "devDependencies": {
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3"
-  }
+  },
+  "main": "index.js",
+  "author": "Dorcy Jean Duke <dorcyd89@gmail.com>",
+  "license": "MIT"
 }
